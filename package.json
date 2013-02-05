@@ -1,0 +1,10 @@
+{
+    "name": "pokemon-db",
+    "version": "0.1.0",
+    "author": "Koka El Kiwi <admin@kokaelkiwi.eu>",
+    "dependencies": {
+        "redis": "*",
+        "underscore": "*",
+        "async": "*"
+    }
+}
