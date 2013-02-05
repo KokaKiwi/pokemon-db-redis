@@ -8,6 +8,9 @@ var redis = require('redis'),
 
 var client = redis.createClient();
 
+/*
+    Function from https://github.com/arcanis/trivia.pokemon-prolog
+*/
 function get(urlSource, callback)
 {
     var urlinfo = url.parse(urlSource);
